@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+}
+
+div {
+    border: 1px solid green;
+}
+
+#complete {
+    height: 100vw;
+    width: 50vw;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+#completeInner p {
+    color: grey;
+    display: inline-block;
+    margin: 2px;
+    word-wrap: break-word;
+    overflow-x: hidden;
+}
+
+#searchBox {
+    height: 50vw;
+    width: 50vw;
+    top: 0;
+    left: 50vw;
+    position: absolute;
+}
+
+#matchBox {
+    height: 50vw;
+    width: 50vw;
+    top: 50vw;
+    left: 50vw;
+    position: absolute;
+}
